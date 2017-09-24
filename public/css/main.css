@@ -29,6 +29,10 @@ header {
 	margin: 0 0 14px 0;
 	text-align: center;
 }
+footer{
+  text-align: center;
+  font-size: 10px;
+}
 
 p {
 	margin: 8px 0 0 0;
