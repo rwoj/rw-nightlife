@@ -1,6 +1,4 @@
 'use strict';
-
-// var GitHubStrategy = require('passport-github').Strategy;
 var TwitterStrategy=require('passport-twitter').Strategy;
 
 var User = require('../models/users');
@@ -23,7 +21,6 @@ module.exports = function (passport) {
 						newUser.twitter.id = profile.id;
 						newUser.twitter.username = profile.username;
 						newUser.twitter.displayName = profile.displayName;
-						newUser.places = [];
 						newUser.save(function (err) {
 							if (err) {
 								throw err;

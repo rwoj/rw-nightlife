@@ -7,12 +7,8 @@ var User = new Schema({
 	twitter: {
 		id: String,
 		displayName: String,
-		username: String
-	},
-   places: [{
-      barId: String,
-      going: Number
-   }]
+		username: String,
+	}
 });
 
 module.exports = mongoose.model('User', User);

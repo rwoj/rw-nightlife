@@ -1,14 +1,12 @@
 'use strict';
-
 module.exports = {
-	// 'githubAuth': {
-	// 	'clientID': process.env.GITHUB_KEY,
-	// 	'clientSecret': process.env.GITHUB_SECRET,
-	// 	'callbackURL': process.env.APP_URL + 'auth/github/callback'
-	// },
 	'twitterAuth': {
 		'clientID': process.env.TWITTER_CONSUMER_KEY,
 		'clientSecret': process.env.TWITTER_CONSUMER_SECRET,
 		'callbackURL': process.env.APP_URL
+	},
+	'yelpAuth': {
+		'clientId': process.env.YELP_ID,
+		'clientSecret': process.env.YELP_SECRET
 	}
 };
