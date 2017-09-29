@@ -8,5 +8,6 @@ module.exports = {
 	'yelpAuth': {
 		'clientId': process.env.YELP_ID,
 		'clientSecret': process.env.YELP_SECRET
-	}
+	},
+	'appUrl': process.env.APP_URL
 };
